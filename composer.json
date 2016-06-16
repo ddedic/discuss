@@ -1,0 +1,21 @@
+{
+  "name": "laravelish/discuss",
+  "description": "Ajax Comment System for Laravel 5.2",
+  "keywords": ["laravel","comment","discuss"],
+  "homepage": "https://github.com/laravelish/discuss",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Laravelish"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "s9e/text-formatter": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "laravelish\\discuss\\": "src/"
+    }
+  }
+}
