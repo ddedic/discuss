@@ -17,5 +17,7 @@
     "psr-4": {
       "laravelish\\discuss\\": "src/"
     }
-  }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
 }
