@@ -1,17 +1,17 @@
 <?php
 
-namespace DLaravelish\Discuss\Http\Controllers;
+namespace Laravelish\Discuss\Http\Controllers;
 
-use DLaravelish\Discuss\Comments\Comment;
-use DLaravelish\Discuss\Http\Middleware\Admin;
-use DLaravelish\Discuss\Jobs\BulkCommentUpdate;
-use DLaravelish\Discuss\Jobs\DeleteComment;
-use DLaravelish\Discuss\Jobs\FetchCommentsAdmin;
-use DLaravelish\Discuss\Jobs\UpdateComment;
 use Illuminate\Foundation\Bus\DispatchesJobs;
 use Illuminate\Foundation\Validation\ValidatesRequests;
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;
+use Laravelish\Discuss\Comments\Comment;
+use Laravelish\Discuss\Http\Middleware\Admin;
+use Laravelish\Discuss\Jobs\BulkCommentUpdate;
+use Laravelish\Discuss\Jobs\DeleteComment;
+use Laravelish\Discuss\Jobs\FetchCommentsAdmin;
+use Laravelish\Discuss\Jobs\UpdateComment;
 use Response;
 
 class AdminDashboardController extends Controller
