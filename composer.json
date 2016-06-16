@@ -4,6 +4,8 @@
   "keywords": ["laravel","comment","discuss"],
   "homepage": "https://github.com/laravelish/discuss",
   "license": "MIT",
+  "minimum-stability": "dev",
+  "prefer-stable": true,
   "authors": [
     {
       "name": "Laravelish"
@@ -17,7 +19,5 @@
     "psr-4": {
       "laravelish\\discuss\\": "src/"
     }
-  },
-  "minimum-stability": "dev",
-  "prefer-stable": true
+  }
 }
